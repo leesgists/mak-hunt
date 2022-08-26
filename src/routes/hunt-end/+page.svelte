@@ -1,5 +1,5 @@
 <script>
-    import treasure from '$lib/assets/mak-cartoon-2022.png';
+    import treasure from '$lib/assets/catchi-team.png';
 </script>
 
 <h1>The Mak Hunt Treasure</h1>
