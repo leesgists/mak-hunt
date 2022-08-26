@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+		<style>
+			*{margin:0;padding:0;box-sizing:border-box;font-family: monospace;}
+			body {background-color:#189fad;}
+			#hunt{height:100vh;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:0 20px;}
+			#hunt h1 {font-size:28px;margin-bottom:20px;}
+			#hunt h2 {font-size:24px;margin-bottom:20px;}
+			#hunt p {font-size:20px;}
+			input{width: 80%; font-size: 20px; padding: 10px; margin: 10px;}
+			input+a,.cta{border: 1px solid #fff; font-size: 20px; margin:20px auto; text-decoration: none; padding: 10px 20px;color: #fff; background-color: #d81b60; font-family: monospace;}
+			input+a:hover,.cta:hover{border-color:#d81b60;color:#d81b60;background:#fff;}
+			img{max-width:100%;margin-bottom:20px;max-width:780px;}
+		</style>
+	</head>
+	<body>
+		<div id="hunt">%sveltekit.body%</div>
+	</body>
+</html>
